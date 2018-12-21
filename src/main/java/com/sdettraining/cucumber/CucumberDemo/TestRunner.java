@@ -6,7 +6,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 //@CucumberOptions(features = "Feature", glue = "com.sdettraining.cucumber.CucumberDemo", dryRun = false, plugin = {"pretty", "html:target/cucumber-reports" }, monochrome = true, tags = { "@smoke, @sanity" })
 
 
-@CucumberOptions(features = "Feature/ddtLoginInvalid.feature")
+//@CucumberOptions(features = "Feature/ddtLoginInvalid.feature")
 // removed , glue = "com.sdettraining.cucumber.CucumberDemo"
 
 
@@ -20,7 +20,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 //@CucumberOptions(features = "Feature", glue = "com.sdettraining.cucumber.CucumberDemo", dryRun = false, plugin = {"pretty", "html:target/cucumber-reports" })
 //removed , monochrome = true, tags = { "@smoke, @sanity" }
 
-//@CucumberOptions(features = "Feature", glue = "com.sdettraining.cucumber.CucumberDemo", dryRun = false, plugin = {"pretty", "html:target/cucumber-reports" }, monochrome = true, tags = { "@smoke, @sanity" })
+@CucumberOptions(features = "Feature", glue = "com.sdettraining.cucumber.CucumberDemo", dryRun = false, plugin = {"pretty", "html:target/cucumber-reports" }, monochrome = true, tags = { "@smoke, @sanity" })
 
 
 
